@@ -75,11 +75,8 @@
 		408287D119BB8BFE004B6E26 /* LoLEzify */ = {
 			isa = PBXGroup;
 			children = (
-				408287D419BB8BFE004B6E26 /* AppDelegate.swift */,
-				408287D619BB8BFE004B6E26 /* ViewController.swift */,
-				408287D819BB8BFE004B6E26 /* Main.storyboard */,
-				408287DB19BB8BFE004B6E26 /* Images.xcassets */,
-				408287D219BB8BFE004B6E26 /* Supporting Files */,
+				408287F219BB8D93004B6E26 /* Resources */,
+				408287F119BB8D8E004B6E26 /* Source */,
 			);
 			path = LoLEzify;
 			sourceTree = "<group>";
@@ -107,6 +104,33 @@
 				408287E619BB8BFE004B6E26 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		408287F119BB8D8E004B6E26 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				408287F319BB8DD9004B6E26 /* Misc */,
+				408287D619BB8BFE004B6E26 /* ViewController.swift */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		408287F219BB8D93004B6E26 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				408287D819BB8BFE004B6E26 /* Main.storyboard */,
+				408287DB19BB8BFE004B6E26 /* Images.xcassets */,
+				408287D219BB8BFE004B6E26 /* Supporting Files */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		408287F319BB8DD9004B6E26 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				408287D419BB8BFE004B6E26 /* AppDelegate.swift */,
+			);
+			name = Misc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
