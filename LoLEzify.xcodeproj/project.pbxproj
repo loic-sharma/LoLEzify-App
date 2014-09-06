@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		408287D519BB8BFE004B6E26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408287D419BB8BFE004B6E26 /* AppDelegate.swift */; };
+		408287D719BB8BFE004B6E26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408287D619BB8BFE004B6E26 /* ViewController.swift */; };
+		408287DA19BB8BFE004B6E26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 408287D819BB8BFE004B6E26 /* Main.storyboard */; };
+		408287DC19BB8BFE004B6E26 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 408287DB19BB8BFE004B6E26 /* Images.xcassets */; };
+		408287E819BB8BFE004B6E26 /* LoLEzifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408287E719BB8BFE004B6E26 /* LoLEzifyTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		408287E219BB8BFE004B6E26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 408287C719BB8BFE004B6E26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 408287CE19BB8BFE004B6E26;
+			remoteInfo = LoLEzify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		408287CF19BB8BFE004B6E26 /* LoLEzify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoLEzify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		408287D319BB8BFE004B6E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		408287D419BB8BFE004B6E26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		408287D619BB8BFE004B6E26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		408287D919BB8BFE004B6E26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		408287DB19BB8BFE004B6E26 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		408287E119BB8BFE004B6E26 /* LoLEzifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoLEzifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		408287E619BB8BFE004B6E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		408287E719BB8BFE004B6E26 /* LoLEzifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoLEzifyTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		408287CC19BB8BFE004B6E26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408287DE19BB8BFE004B6E26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		408287C619BB8BFE004B6E26 = {
+			isa = PBXGroup;
+			children = (
+				408287D119BB8BFE004B6E26 /* LoLEzify */,
+				408287E419BB8BFE004B6E26 /* LoLEzifyTests */,
+				408287D019BB8BFE004B6E26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		408287D019BB8BFE004B6E26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				408287CF19BB8BFE004B6E26 /* LoLEzify.app */,
+				408287E119BB8BFE004B6E26 /* LoLEzifyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		408287D119BB8BFE004B6E26 /* LoLEzify */ = {
+			isa = PBXGroup;
+			children = (
+				408287D419BB8BFE004B6E26 /* AppDelegate.swift */,
+				408287D619BB8BFE004B6E26 /* ViewController.swift */,
+				408287D819BB8BFE004B6E26 /* Main.storyboard */,
+				408287DB19BB8BFE004B6E26 /* Images.xcassets */,
+				408287D219BB8BFE004B6E26 /* Supporting Files */,
+			);
+			path = LoLEzify;
+			sourceTree = "<group>";
+		};
+		408287D219BB8BFE004B6E26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				408287D319BB8BFE004B6E26 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		408287E419BB8BFE004B6E26 /* LoLEzifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				408287E719BB8BFE004B6E26 /* LoLEzifyTests.swift */,
+				408287E519BB8BFE004B6E26 /* Supporting Files */,
+			);
+			path = LoLEzifyTests;
+			sourceTree = "<group>";
+		};
+		408287E519BB8BFE004B6E26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				408287E619BB8BFE004B6E26 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		408287CE19BB8BFE004B6E26 /* LoLEzify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 408287EB19BB8BFE004B6E26 /* Build configuration list for PBXNativeTarget "LoLEzify" */;
+			buildPhases = (
+				408287CB19BB8BFE004B6E26 /* Sources */,
+				408287CC19BB8BFE004B6E26 /* Frameworks */,
+				408287CD19BB8BFE004B6E26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoLEzify;
+			productName = LoLEzify;
+			productReference = 408287CF19BB8BFE004B6E26 /* LoLEzify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		408287E019BB8BFE004B6E26 /* LoLEzifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 408287EE19BB8BFE004B6E26 /* Build configuration list for PBXNativeTarget "LoLEzifyTests" */;
+			buildPhases = (
+				408287DD19BB8BFE004B6E26 /* Sources */,
+				408287DE19BB8BFE004B6E26 /* Frameworks */,
+				408287DF19BB8BFE004B6E26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				408287E319BB8BFE004B6E26 /* PBXTargetDependency */,
+			);
+			name = LoLEzifyTests;
+			productName = LoLEzifyTests;
+			productReference = 408287E119BB8BFE004B6E26 /* LoLEzifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		408287C719BB8BFE004B6E26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Loic Sharma";
+				TargetAttributes = {
+					408287CE19BB8BFE004B6E26 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					408287E019BB8BFE004B6E26 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 408287CE19BB8BFE004B6E26;
+					};
+				};
+			};
+			buildConfigurationList = 408287CA19BB8BFE004B6E26 /* Build configuration list for PBXProject "LoLEzify" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 408287C619BB8BFE004B6E26;
+			productRefGroup = 408287D019BB8BFE004B6E26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				408287CE19BB8BFE004B6E26 /* LoLEzify */,
+				408287E019BB8BFE004B6E26 /* LoLEzifyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		408287CD19BB8BFE004B6E26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				408287DA19BB8BFE004B6E26 /* Main.storyboard in Resources */,
+				408287DC19BB8BFE004B6E26 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408287DF19BB8BFE004B6E26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		408287CB19BB8BFE004B6E26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				408287D719BB8BFE004B6E26 /* ViewController.swift in Sources */,
+				408287D519BB8BFE004B6E26 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408287DD19BB8BFE004B6E26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				408287E819BB8BFE004B6E26 /* LoLEzifyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		408287E319BB8BFE004B6E26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 408287CE19BB8BFE004B6E26 /* LoLEzify */;
+			targetProxy = 408287E219BB8BFE004B6E26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		408287D819BB8BFE004B6E26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				408287D919BB8BFE004B6E26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		408287E919BB8BFE004B6E26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		408287EA19BB8BFE004B6E26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		408287EC19BB8BFE004B6E26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = LoLEzify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		408287ED19BB8BFE004B6E26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = LoLEzify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		408287EF19BB8BFE004B6E26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LoLEzifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoLEzify.app/LoLEzify";
+			};
+			name = Debug;
+		};
+		408287F019BB8BFE004B6E26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LoLEzifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoLEzify.app/LoLEzify";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		408287CA19BB8BFE004B6E26 /* Build configuration list for PBXProject "LoLEzify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				408287E919BB8BFE004B6E26 /* Debug */,
+				408287EA19BB8BFE004B6E26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		408287EB19BB8BFE004B6E26 /* Build configuration list for PBXNativeTarget "LoLEzify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				408287EC19BB8BFE004B6E26 /* Debug */,
+				408287ED19BB8BFE004B6E26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		408287EE19BB8BFE004B6E26 /* Build configuration list for PBXNativeTarget "LoLEzifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				408287EF19BB8BFE004B6E26 /* Debug */,
+				408287F019BB8BFE004B6E26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 408287C719BB8BFE004B6E26 /* Project object */;
+}
